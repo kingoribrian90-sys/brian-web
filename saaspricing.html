@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAAS pricing</title>
+    <link rel="stylesheet" href="saaspricing.css">
+</head>
+<body>
+    <nav>
+        <a href="personalbio.html">Home</a>
+        <a href="blogpost.html">Blog Post</a>
+        <a href="saaspricing.html">Pricing</a>
+    </nav>
+
+    <header>
+        <h1>Assignment 02</h1>
+        <h2>SAAS Pricing Card Layout</h2>
+    </header>
+
+    <main>
+        <section class="concept-saas">
+            <h5>CONCEPT</h5>
+            <p>Build a pricing page for a fictional web-hosting SaaS product. Three plan cards sit side-by-side. The middle card is visually elevated as the <strong>recommended option</strong>. Above the cards, a toggle switches between <em>Monthly and Annual billing</em>.</p>
+        </section>
+
+        <section class="skills-area-saas">
+            <h5>SKILLS TESTED</h5>
+            <div class="skill-type-saas">
+                <p><strong>Flexbox layout</strong></p>
+                <p><strong>CSS Custom Properties</strong></p>
+                <p><strong>Pseudo-elements</strong></p>
+                <p><strong>Box Shadow</strong></p>
+                <p><strong>Border Radius</strong></p>
+                <p><strong>Hover Transitions</strong></p>
+                <p><strong>Relative / em Units</strong></p>
+                <p><strong>Semantic HTML</strong></p>
+            </div>
+        </section>
+
+        <section class="tricky-saas">
+            <h5>WHAT MAKES IT TRICKY</h5>
+            <div class="paragraph-saas">
+                <p>The featured card must be scaled up without breaking the flex row alignment. The feature list inside each card uses flex column layout with a checkmark/dash icon, and the CTA button must be pinned to the card base with margin-top: auto.</p>
+            </div>
+        </section>
+
+        <section class="visual-ref-saas">
+            <h5>VISUAL REFERENCE MOCKUP</h5>
+            <h6>swifthost.io/pricing</h6>
+        </section>
+
+        <section class="swifthost-saas">
+            <h4><span class="swifthost-span"></span>SwiftHost</h4>
+            <div class="swifthost-credentials">
+                <h6>Login</h6>
+                <h6>Docs</h6>
+                <h6>Pricing</h6>
+                <h6>Features</h6>
+            </div>
+        </section>
+
+        <section class="saas-pricing-details">
+            <h3>Simple, Honest Pricing</h3>
+            <h5>No hidden fees. Upgrade or cancel any time.</h5>
+            <div class="monthly-annual">
+                <a class="toggle active" href="#">Monthly</a>
+                <a class="toggle" href="#">Annual</a>
+            </div>
+
+            <div class="pricing-plans">
+                <article class="plan-card plan-starter">
+                    <div>
+                        <h4>Starter</h4>
+                        <div class="price-row">
+                            <h1>$9</h1>
+                            <span>/ month</span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><span>✓</span> 10 GB storage</li>
+                        <li><span>✓</span> 1 website</li>
+                        <li><span>✓</span> SSL Certificate</li>
+                        <li><span>✓</span> Email Support</li>
+                        <li><span>—</span> Custom Domain</li>
+                        <li><span>—</span> Daily Backups</li>
+                    </ul>
+                    <a class="plan-btn" href="#">Get started</a>
+                </article>
+
+                <article class="plan-card plan-pro featured">
+                    <div class="featured-tag">Most Popular</div>
+                    <div>
+                        <h4>Pro</h4>
+                        <div class="price-row">
+                            <h1>$29</h1>
+                            <span>/ month</span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><span>✓</span> 100 GB storage</li>
+                        <li><span>✓</span> 10 websites</li>
+                        <li><span>✓</span> SSL Certificate</li>
+                        <li><span>✓</span> Priority Support</li>
+                        <li><span>✓</span> Custom Domain</li>
+                        <li><span>✓</span> Daily Backups</li>
+                    </ul>
+                    <a class="plan-btn featured-btn" href="#">Go Pro</a>
+                </article>
+
+                <article class="plan-card plan-business">
+                    <div>
+                        <h4>Business</h4>
+                        <div class="price-row">
+                            <h1>$79</h1>
+                            <span>/ month</span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><span>✓</span> 1 TB storage</li>
+                        <li><span>✓</span> Unlimited sites</li>
+                        <li><span>✓</span> SSL Certificate</li>
+                        <li><span>✓</span> 24/7 Support</li>
+                        <li><span>✓</span> Custom Domain</li>
+                        <li><span>✓</span> Daily Backups</li>
+                    </ul>
+                    <a class="plan-btn" href="#">Contact Us</a>
+                </article>
+            </div>
+
+            <a class="home-link" href="personal bio.html">Visit the home page</a>
+        </section>
+    </main>
+
+    <footer>
+        <h6>All plans include a 14-day free trial. No credit card required</h6>
+    </footer>
+</body>
+</html>

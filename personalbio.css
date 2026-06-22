@@ -1,0 +1,346 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading {
+    text-align: left;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    color: rgba(233, 6, 6, 0.8);
+    line-height: 2.5rem;
+    background-color: rgba(30, 2, 78, 0.918);
+    border-bottom: 0.6rem solid rgba(249, 3, 3, 0.685);
+}
+
+.heading h1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    color: rgb(233, 6, 6);
+    margin: 0;
+}
+
+.heading h3 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: white;
+    margin: 0;
+}
+
+h6 {
+    font-size: 0.875rem;
+    color: rgb(233, 6, 6);
+    margin-bottom: 0rem;
+    margin-top: 0.4rem;
+    text-decoration: underline;
+    text-decoration-color: rgba(7, 0, 0, 0.929);
+    text-decoration-thickness: 0.125rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: black;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    margin-inline: 0.1rem;
+}
+
+.skills {
+    max-width: max-content;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+   
+}
+
+.skills p {
+    text-wrap: none;
+    display: flex;
+    gap: 1rem;
+    background-color: rgba(233, 6, 6, 0.8);
+    border: solid 0.25rem rgba(233, 6, 6, 0.8);
+    padding: 0.25rem;
+    border-radius: 1rem;
+    border-width: 0.25rem;
+    color: aliceblue;
+}
+
+.paragraph {
+    margin-top: 1rem;
+    margin-bottom: 0.05rem;
+    padding-bottom: 1.2rem;
+    margin-inline: 0.1rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: black;
+    background-color: lightpink;
+    
+}
+
+
+.personal-about {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contact-work-about {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+
+.about-photo {
+    background-color: rgb(30, 24, 73);
+    padding-top: 1.5rem ;
+    padding-bottom: 1.25rem;
+    padding-left: 2.5rem;
+    color: aliceblue;
+    
+}
+
+.location {
+    font-size: 0.875rem;
+    font-weight: normal;
+    color: aliceblue;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    
+}
+
+.contact-links   {
+    max-width: fit-content;
+    justify-content: space-between;
+    display: flex;
+    gap: 0.5rem;
+    a {
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 0.8rem;
+        background-color: rgb(250, 43, 36);
+        border: solid 0.25rem rgba(233, 6, 6, 0.8);
+        padding: 0.5rem;
+        border-radius: 1.5rem;
+        border-width: 0.1rem;
+       
+    }
+    .contact-me {
+        background-color: rgb(76, 76, 92);
+        border-color: rgb(76, 76, 92) ;
+
+    }  
+}
+
+.only-about h4 {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: solid;
+    text-underline-offset: 0.2rem;
+    text-decoration-thickness: 0.2rem;
+    margin-bottom: 0.1rem;
+   
+}
+
+.only-about p {
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+
+}
+
+.known-skills {
+    p {
+    max-width: max-content;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    text-decoration: none;
+    text-wrap: none;
+    background-color: rgba(233, 6, 6, 0.8);
+    border: solid 0.25rem rgba(233, 6, 6, 0.8);
+    padding: 0.25rem;
+    border-radius: 1rem;
+    border-width: 0.25rem;
+    color: aliceblue;
+    }
+}
+
+
+.sites {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
+    overflow: hidden;   
+    height: 50%;
+    background-color: #f4efef; 
+    aspect-ratio: 18/18;
+
+}
+
+.portfolio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio p {
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+
+}
+
+.portfolio h6 {
+    margin-top: 0.3rem;
+    padding-left: 0.5rem;
+    font-size: 0.6rem;
+    color: gray;
+    text-decoration: none;
+
+}
+
+.portfolio a {
+    max-width: max-content;
+    text-decoration: none;
+    color: rgb(251, 247, 247);
+    font-size: 0.8rem;
+    background-color: rgb(250, 43, 36);
+    border: solid 0.25rem rgba(233, 6, 6, 0.8);
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    border-width: 0.1rem;
+    margin-bottom: 0.8rem;
+    margin-left: 0.5rem;
+    
+}
+
+
+
+.saas {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
+    overflow: hidden;   
+    height: 25%;
+    background-color: #f4efef; 
+    aspect-ratio: 20/23;
+
+}
+
+.saas img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.saas p {
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+
+}
+
+.saas h6 {
+    margin-top: 0.3rem;
+    padding-left: 0.5rem;
+    font-size: 0.6rem;
+    color: gray;
+    text-decoration: none;
+
+}
+
+.saas a {
+    max-width: max-content;
+    text-decoration: none;
+    color: rgb(251, 247, 247);
+    font-size: 0.8rem;
+    background-color:  rgba(54, 110, 250, 0.888);
+    border: solid 0.25rem rgba(54, 110, 250, 0.888);
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    border-width: 0.1rem;
+    margin-bottom: 0.8rem;
+    margin-left: 0.5rem;
+    
+}
+
+
+
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
+    overflow: hidden;   
+    height: 25%;
+    background-color: #f4efef; 
+    aspect-ratio: 18/18;
+
+}
+
+.blog img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog p {
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+
+}
+
+.blog h6 {
+    margin-top: 0.3rem;
+    padding-left: 0.5rem;
+    font-size: 0.6rem;
+    color: gray;
+    text-decoration: none;
+
+}
+
+.blog a {
+    max-width: max-content;
+    text-decoration: none;
+    color: rgb(251, 247, 247);
+    font-size: 0.8rem;
+    background-color:  rgba(27, 197, 157, 0.888);
+    border: solid 0.25rem rgba(27, 197, 157, 0.888);
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    border-width: 0.1rem;
+    margin-bottom: 0.8rem;
+    margin-left: 0.5rem;
+    
+}
+
+.bio-footer p{
+    background-color: rgb(13, 13, 80);
+    color: #b1b0b0;
+    text-align: center;
+    padding: 1rem;
+}
+
+.overall {
+    max-inline-size: 1000px;
+    margin-inline: auto;
+}
+
+
+
+
+
+
